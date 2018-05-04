@@ -102,7 +102,7 @@ public class MainActivityJava extends AppCompatActivity implements OnScanError, 
            }
 
         }
-        System.out.println("HelloThisisTest" + test);
+        System.out.println("HelloThisisTest" );
        /* Iterator it = areaMap.entrySet().iterator();
         while (it.hasNext()) {
             Map.Entry pair = (Map.Entry)it.next();
