@@ -9,9 +9,7 @@ import android.content.Intent
 import android.os.ParcelUuid
 import java.util.*
 
-/**
- * @author Andrew Koidan, AgileVision, 15.12.17.
- */
+
 class BeaconsSearcher(private val callback: OnScanError, private val onBeaconFound: BeaconsTracker) : ScanCallback() {
     var scanRunning = false
         private set
