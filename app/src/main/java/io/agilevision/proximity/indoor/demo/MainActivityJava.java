@@ -90,7 +90,7 @@ public class MainActivityJava extends AppCompatActivity implements OnScanError, 
         mm.put(d, new Holder(bd, "D (69403602962961514142)"));
         mm.put(e, new Holder(be, "E (69745341528751453770)"));
 
-
+            // TODO: Fixa en getAll() metod
         for(int i = 0 ; i < arrList.size(); i++){
             test = arrList.get(i).getName();
            System.out.println("hello123123: " + arrList.get(i).getName());
